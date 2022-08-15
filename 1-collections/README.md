@@ -10,6 +10,7 @@
 ```py
 fruits = {"apple":10, "banana":7, "orange":8}
 print(fruits["banana"])
+print(fruits.get("banana"))
 
 value  = <dict>.get(key, default=None)          # Returns default if key is missing.
 value  = <dict>.setdefault(key, default=None)   # Returns and writes default if key is missing.
@@ -70,4 +71,21 @@ print(set1)
 
 # Itertools
 from itertools import count, repeat, cycle, chain, islice
+```
+
+### Loops
+
+[10_Day_Loops](https://github.com/androchentw/30-Days-Of-Python/blob/master/10_Day_Loops/10_loops.md)
+
+```py
+for key, value in person.items():
+    print(key, value) # this way we get both keys and values printed out
+
+for number in range(11):
+    print(number)   # prints 0 to 10, not including 11
+
+for iterator in range(start, end, step):
+    do something
+else:
+    print('The loop ended')
 ```
