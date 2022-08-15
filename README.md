@@ -11,7 +11,7 @@ Inspired by
 
 1. **Collections**: List, **[Dictionary]**, Set, Tuple, Range, Enumerate, Iterator, Generator.
 2. **Types**: Type, [String], Regular_Exp, Format, Numbers, Combinatorics, **[Datetime]**.
-3. **Syntax**: Function, (Args, Inline), Module, Import, Decorator, **[Class]**, Duck_Types, Enum, **[Exception]**.
+3. **Syntax**: **Function**, (Args, Inline), **Module**, Import, **Decorator**, **[Class]**, Duck_Types, Enum, **[Exception]**.
 4. **System**: Exit, Print, Input, Command_Line_Arguments, Open, **[Path]**, **[OS_Commands]**.
 5. **Data**: **[JSON]**, Pickle, CSV, SQLite, Bytes, Struct, Array, Memory_View, Deque
 6. **Advanced**: **[Threading]**, Operator, Introspection, Metaprograming, Eval, Coroutines.
