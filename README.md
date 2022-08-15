@@ -23,6 +23,13 @@ Inspired by
 ## Main
 
 ```py
+#!/usr/bin/env python3
+#
+# Usage: utils.py
+#
+def main():
+    pass
+
 if __name__ == '__main__':     # Runs main() if file wasn't imported.
     main()
 ```
