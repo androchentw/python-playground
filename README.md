@@ -10,8 +10,8 @@ Inspired by
 ## Table of Contents
 
 1. **Collections**: List, **[Dictionary]**, Set, Tuple, Range, Enumerate, Iterator, Generator.
-2. **Types**: Type, String, Regular_Exp, Format, Numbers, Combinatorics, **[Datetime]**.
-3. **Syntax**: Args, Inline, Import, Decorator, **[Class]**, Duck_Types, Enum, **[Exception]**.
+2. **Types**: Type, [String], Regular_Exp, Format, Numbers, Combinatorics, **[Datetime]**.
+3. **Syntax**: Function, (Args, Inline), Module, Import, Decorator, **[Class]**, Duck_Types, Enum, **[Exception]**.
 4. **System**: Exit, Print, Input, Command_Line_Arguments, Open, **[Path]**, **[OS_Commands]**.
 5. **Data**: **[JSON]**, Pickle, CSV, SQLite, Bytes, Struct, Array, Memory_View, Deque
 6. **Advanced**: **[Threading]**, Operator, Introspection, Metaprograming, Eval, Coroutines.
@@ -26,20 +26,12 @@ Inspired by
 if __name__ == '__main__':     # Runs main() if file wasn't imported.
     main()
 ```
-## Day 2 Built in functions
 
-commonly used
-
-```py
-print(), len(), type(), 
-int(), float(), str(), 
-list(), dict(), min(), max(), sum(), sorted(), 
-input(), open(), file(), dir(), help()
-```
 
 <!-- Links -->
 
 [Dictionary]: 1-collections/README.md#dictionary
+[String]: 2-types/README.md#string
 [Datetime]: 2-types/README.md#datetime
 [Class]: 3-syntax/README.md#class
 [Exception]: 3-syntax/README.md#exception
