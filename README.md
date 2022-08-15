@@ -24,17 +24,17 @@ Inspired by
 
 <!-- Links -->
 
-[Dictionary]: 1-collections/dictionary/README.md
-[Datetime]: 2-types/datetime/README.md
-[Class]: 3-syntax/class/README.md
-[Exception]: 3-syntax/path/README.md
+[Dictionary]: 1-collections/README.md#dictionary
+[Datetime]: 2-types/README.md#datetime
+[Class]: 3-syntax/README.md#class
+[Exception]: 3-syntax/README.md#exception
 
-[Path]: 4-system/path/README.md
-[OS_Commands]: 4-system/os-commands/README.md
-[JSON]: 5-data/json/README.md
-[Threading]: 6-advanced/threading/README.md
+[Path]: 4-system/README.md#path
+[OS_Commands]: 4-system/README.md#os-commands
+[JSON]: 5-data/README.md#json
+[Threading]: 6-advanced/README.md#threading
 
-[Web]: 7-libraries/web/README.md
-[Logging]: 7-libraries/logging/README.md
-[Pytest]: 8-test/pytest/README.md
-[PEP8]: 9-style/pep8/README.md
+[Web]: 7-libraries/README.md#web
+[Logging]: 7-libraries/README.md#logging
+[Pytest]: 8-test/README.md#pytest
+[PEP8]: 9-style/README.md#pep8
