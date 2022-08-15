@@ -102,6 +102,8 @@ def f(x, **kwargs): ...         # f(x=1, y=2, z=3) | f(1, y=2, z=3)
 [12_Day_Modules](https://github.com/androchentw/30-Days-Of-Python/blob/master/12_Day_Modules/12_modules.md)
 
 * A module is a file containing a set of codes or a set of functions which can be included to an application. A module could be a file containing a single variable, a function or a big code base.
+* Default module: OS, System, Statistics, Math, String, Random
+
 
 ```py
 # mymodule.py file
@@ -116,30 +118,6 @@ print(mymodule.generate_full_name('Asabeneh', 'Yetayeh')) # Asabeneh Yetayeh
 # # main.py file
 from mymodule import generate_full_name as fullname, sum_two_nums as total, person as p, gravity as g
 print(fullname('Asabneh','Yetayeh'))
-```
-
-```py
-# OS Module
-# import the module
-import os
-os.mkdir('directory_name')  # Creating a directory
-os.chdir('path')    # Changing the current directory
-os.getcwd() # Getting current working directory
-os.rmdir()  # Removing directory
-
-# System Module
-import sys
-#print(sys.argv[0], argv[1],sys.argv[2])  # this line would print out: filename argument1 argument2
-print('Welcome {}. Enjoy  {} challenge!'.format(sys.argv[1], sys.argv[2]))
-
-$ python script.py Asabeneh 30DaysOfPython
->>> Welcome Asabeneh. Enjoy  30DayOfPython challenge! 
-
-
-# Statistics Module
-# Math Module
-# String Module 
-# Random Module
 ```
 
 ## Import
