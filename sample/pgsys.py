@@ -13,15 +13,15 @@ import sys
 from pathlib import Path
 
 
-def demo_sys_input():
-    print(f"Welcome {sys.argv[1]}. Enjoy {sys.argv[2]} challenge!")
-
-
 def main():
     demo_sys_input()
     demo_os_dir()
     demo_handle_file()
     demo_shell()
+
+
+def demo_sys_input():
+    print(f"Welcome {sys.argv[1]}. Enjoy {sys.argv[2]} challenge!")
 
 
 def demo_os_dir():
@@ -35,18 +35,18 @@ def demo_os_dir():
     os.replace("pgmain_demo_os_dir", "replace1")
     os.rmdir("replace1")
     os.rename("copy_dir1", "rename1")
-    shutil.rmtree("rename1")    
+    shutil.rmtree("rename1")
 
 
 def demo_handle_file():
     write_to_file("sample.txt", "1\n2\n3\n")
     print(read_file("sample.txt"))
-    
+
     shutil.copy("sample.txt", "copy1")
     os.remove("copy1")
 
     print("sample.txt exists(): {}".format(Path("sample.txt").exists()))
-    print("sample.txt is_file(): {}".format(Path("sample.txt").is_file()))  
+    print("sample.txt is_file(): {}".format(Path("sample.txt").is_file()))
     os.remove("sample.txt")
 
 

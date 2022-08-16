@@ -12,15 +12,8 @@ from loguru import logger
 
 
 def main():
-    logger.info(
-        "If you're using Python {}, prefer {feature} of course!",
-        3.6,
-        feature="f-strings",
-    )
-    logger.debug("msg debug")
-    logger.warning("msg warning")
-    logger.error("msg ERROR")
-    
+    init()
+    demo_logger()
     demo_decorator_func(0, 0, 0)
     demo_except_catch_func(0)
     pass
@@ -35,6 +28,17 @@ def init():
         diagnose=True,
         format="{time:%F %T%z}, {level}, {message}.",
     )
+
+
+def demo_logger():
+    logger.info(
+        "If you're using Python {}, prefer {feature} of course!",
+        3.6,
+        feature="f-strings",
+    )
+    logger.debug("msg debug")
+    logger.warning("msg warning")
+    logger.error("msg ERROR")
 
 
 @logger.catch
@@ -54,5 +58,4 @@ def demo_except_catch_func(c):
 
 
 if __name__ == "__main__":
-    init()
     main()
