@@ -60,7 +60,7 @@ print(do_something(square_number, 3)) # 27
 <obj>  = reduce(lambda out, x: out + x, range(10))  # Or: 45
 
 # syntax
-x = lambda param1, param2, param3: param1 + param2 + param2
+x = lambda param1, param2, param3: param1 + param2 + param3
 print(x(arg1, arg2, arg3))
 
 square = lambda x : x ** 2

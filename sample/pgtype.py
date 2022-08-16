@@ -21,7 +21,7 @@ def main():
 
 
 def demo_dictionary():
-    print("\ndemo_dictionary")
+    print("\n# demo_dictionary")
     fruits = {"apple": 10, "banana": 7, "orange": 8}
     print(fruits["banana"])
     print(fruits.get("strawberry", "default_strawberry"))
@@ -31,7 +31,7 @@ def demo_dictionary():
 
 
 def demo_list():
-    print("\ndemo_list")
+    print("\n# demo_list")
     animals = ["cat", "bear", "dog", "elephant"]
     print(animals.index("cat"))
     print(animals.count("bear"))
@@ -40,7 +40,7 @@ def demo_list():
 
 
 def demo_type():
-    print("\ndemo_type")
+    print("\n# demo_type")
     print(type(10))  # Int
     print(type(3.14))  # Float
     print(type(1 + 3j))  # Complex
@@ -52,7 +52,7 @@ def demo_type():
 
 
 def demo_string():
-    print("\ndemo_string")
+    print("\n# demo_string")
     language = "Python"
     print(language[0:3])  # Pyt
     print(language[3:6])  # hon
@@ -75,7 +75,7 @@ def demo_string():
 
 
 def demo_datetime():
-    print("\ndemo_datetime")
+    print("\n# demo_datetime")
     now = datetime.now()
     year = now.year
     timestamp = now.timestamp()
@@ -89,7 +89,7 @@ def demo_datetime():
 
 
 def demo_regex():
-    print("\ndemo_regex")
+    print("\n# demo_regex")
 
 
 if __name__ == "__main__":

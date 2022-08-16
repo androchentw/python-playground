@@ -2,6 +2,7 @@
 #
 # Reference
 #   loguru + Exception
+#   3-syntax/exception
 #   7-libraries/Logging
 #
 # Requirements

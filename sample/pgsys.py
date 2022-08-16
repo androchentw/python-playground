@@ -7,6 +7,7 @@
 # Requirements
 #
 # Usage: python pgsys.py <name> <challenge>
+import inspect
 import os
 import shutil
 import sys
@@ -14,17 +15,27 @@ from pathlib import Path
 
 
 def main():
+    demo_inspect()
     demo_sys_input()
     demo_os_dir()
     demo_handle_file()
     demo_shell()
 
 
+def demo_inspect():
+    print("\n# demo_inspect")
+    print(inspect.stack()[0][3])
+    # stack()[0] is the caller
+    # stack()[3] is the string name of the method
+
+
 def demo_sys_input():
+    print("\n# demo_sys_input")
     print(f"Welcome {sys.argv[1]}. Enjoy {sys.argv[2]} challenge!")
 
 
 def demo_os_dir():
+    print("\n# demo_os_dir")
     print(os.getcwd())
     os.mkdir("pgmain_demo_os_dir")
     os.chdir("pgmain_demo_os_dir")
@@ -39,6 +50,7 @@ def demo_os_dir():
 
 
 def demo_handle_file():
+    print("\n# demo_handle_file")
     write_to_file("sample.txt", "1\n2\n3\n")
     print(read_file("sample.txt"))
 
