@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #
 # Reference
+#   Web: API request + JSON parsing
 #   5-data/JSON    
 #   7-libraries/22_Day_Web_scraping
 #

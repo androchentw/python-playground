@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #
 # Reference
+#   loguru + Exception
 #   7-libraries/Logging
 #
 # Requirements

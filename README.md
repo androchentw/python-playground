@@ -24,12 +24,13 @@ Inspired by
 
 ```
 sample
-├─ pgclass.py           # Class, Object
-├─ pglog.py             # loguru + Exception
+├─ pgclass.py           # Class, Object. 3-syntax/
+├─ pgfunciton.py        # Dict, Enum, Regex, Dateime. 1-collections/, 2-types/
+├─ pglog.py             # loguru + Exception. 7-libraries/
 ├─ pglog_sample.log     # sample log
-├─ pgrequest.py         # Web: API request + JSON parsing
-├─ pgsys.py             # system, os, file
-└─ pgtest.py            # PyTest, report, mock data
+├─ pgrequest.py         # Web: API request + JSON parsing. 5-data/, 7-libraries/
+├─ pgsys.py             # system, os, file. 3-system/
+└─ pgtest.py            # PyTest, report, mock data. 8-test/
 ```
 
 ---

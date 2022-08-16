@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 #
 # Reference
-#   Class, Object
-#   3-syntax/
+#   1-collections/  Dict, Enum, 
+#   2-types/    Regex, Dateime. 
 # 
 # Requirements
 #
-# Usage: python pgclass.py
+# Usage: python pgfunction.py
 
 
 def main():
