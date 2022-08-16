@@ -1,12 +1,14 @@
-#!/usr/bin/env python3
-#
-# Reference
-#   system, os, file
-#   4-system/
-#
-# Requirements
-#
-# Usage: python pgsys.py <name> <challenge>
+"""
+!/usr/bin/env python3
+
+Reference
+  system, os, file
+  4-system/
+
+Requirements
+
+Usage: python pgsys.py <name> <challenge>
+"""
 import inspect
 import os
 import shutil

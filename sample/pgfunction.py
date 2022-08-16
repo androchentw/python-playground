@@ -1,11 +1,13 @@
-#!/usr/bin/env python3
-#
-# Reference
-#   3-syntax/   Function, Decorator, Enum
-#
-# Requirements
-#
-# Usage: python pgfunction.py
+"""
+!/usr/bin/env python3
+
+Reference
+  3-syntax/   Function, Decorator, Enum
+
+Requirements
+
+Usage: python pgfunction.py
+"""
 from enum import Enum, unique
 from functools import wraps
 from random import randint

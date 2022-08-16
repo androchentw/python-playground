@@ -1,12 +1,14 @@
-#!/usr/bin/env python3
-#
-# Reference
-#   1-collections/  Dict,
-#   2-types/    Regex, Dateime.
-#
-# Requirements
-#
-# Usage: python pgtype.py
+"""
+!/usr/bin/env python3
+
+Reference
+  1-collections/  Dict,
+  2-types/    Regex, Dateime.
+
+Requirements
+
+Usage: python pgtype.py
+"""
 from datetime import datetime
 
 

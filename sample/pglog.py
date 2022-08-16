@@ -1,14 +1,16 @@
-#!/usr/bin/env python3
-#
-# Reference
-#   loguru + Exception
-#   3-syntax/exception
-#   7-libraries/Logging
-#
-# Requirements
-# $ pip3 install loguru
-#
-# Usage: python pgtest.py
+"""
+!/usr/bin/env python3
+
+Reference
+  loguru + Exception
+  3-syntax/exception
+  7-libraries/Logging
+
+Requirements
+$ pip3 install loguru
+
+Usage: python pgtest.py
+"""
 from loguru import logger
 
 
