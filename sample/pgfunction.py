@@ -7,6 +7,7 @@
 #
 # Usage: python pgfunction.py
 from enum import Enum, unique
+from functools import wraps
 from random import randint
 
 
@@ -68,6 +69,9 @@ def demo_decorator():
     print("\n# demo_decorator")
     print(greeting())  # WELCOME TO PYTHON
 
+    print(add(1, 2))
+
+
 # First decorator
 def uppercase_decorator(function):
     def wrapper():
@@ -89,11 +93,29 @@ def split_string_decorator(function):
 
 
 @split_string_decorator
-@uppercase_decorator  
-# order with decorators is important in this case 
+@uppercase_decorator
+# order with decorators is important in this case
 # .upper() function does not work with lists
 def greeting():
     return "Welcome to Python"
+
+
+def debug(print_result=False):
+    def decorator(func):
+        @wraps(func)
+        def out(*args, **kwargs):
+            result = func(*args, **kwargs)
+            print("internal: ", func.__name__, result if print_result else "")
+            return result
+
+        return out
+
+    return decorator
+
+
+@debug(print_result=True)
+def add(x, y):
+    return x + y
 
 
 if __name__ == "__main__":
