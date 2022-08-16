@@ -25,7 +25,7 @@ Inspired by
 ```
 sample
 ├─ pgclass.py           # Class, Object. 3-syntax/
-├─ pgfunciton.py        # Dict, Regex, Dateime. 1-collections/, 2-types/
+├─ pgtype.py            # Dict, Regex, Dateime. 1-collections/, 2-types/
 ├─ pgfunciton.py        # Function, Decorator, Enum. 3-syntax/
 ├─ pglog.py             # loguru + Exception. 7-libraries/
 ├─ pglog_sample.log     # sample log
