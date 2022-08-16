@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 #
+# Reference
+#   3-syntax/
+# 
 # Requirements
 #
 # Usage: python main.py

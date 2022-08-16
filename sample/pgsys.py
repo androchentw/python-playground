@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+#
+# Reference
+#   4-system/
+#
+# Requirements
+#
+# Usage: python pgsys.py <name> <challenge>
+import os
+import shutil
+import sys
+from pathlib import Path
+
+
+def demo_sys_input():
+    print(f"Welcome {sys.argv[1]}. Enjoy {sys.argv[2]} challenge!")
+
+
+def main():
+    demo_sys_input()
+    demo_os_dir()
+    demo_handle_file()
+    demo_shell()
+
+
+def demo_os_dir():
+    print(os.getcwd())
+    os.mkdir("pgmain_demo_os_dir")
+    os.chdir("pgmain_demo_os_dir")
+    print(os.getcwd())
+    os.chdir("../")
+
+    shutil.copytree("pgmain_demo_os_dir", "copy_dir1")
+    os.replace("pgmain_demo_os_dir", "replace1")
+    os.rmdir("replace1")
+    os.rename("copy_dir1", "rename1")
+    shutil.rmtree("rename1")    
+
+
+def demo_handle_file():
+    write_to_file("sample.txt", "1\n2\n3\n")
+    print(read_file("sample.txt"))
+    
+    shutil.copy("sample.txt", "copy1")
+    os.remove("copy1")
+
+    print("sample.txt exists(): {}".format(Path("sample.txt").exists()))
+    print("sample.txt is_file(): {}".format(Path("sample.txt").is_file()))  
+    os.remove("sample.txt")
+
+
+# Read Text from File
+def read_file(filename):
+    with open(filename, encoding="utf-8") as file:
+        return file.readlines()
+
+
+# Write Text to File
+def write_to_file(filename, text):
+    with open(filename, "w", encoding="utf-8") as file:
+        file.write(text)
+
+
+def demo_shell():
+    pass
+
+
+# Runs main() if file wasn't imported.
+if __name__ == "__main__":
+    main()
+
+    sys.exit()

@@ -27,8 +27,8 @@ sample
 ├─ pgclass.py           # Class, Object
 ├─ pglog.py             # loguru + Exception
 ├─ pglog_sample.log     # sample log
-├─ pgmain.py            # main function structure and some simple function
 ├─ pgrequest.py         # Web: API request + JSON parsing
+├─ pgsys.py             # system, os, file
 └─ pgtest.py            # PyTest, report, mock data
 ```
 
