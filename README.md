@@ -15,6 +15,21 @@ Inspired by
 2. [30-Days-Of-Python](https://github.com/androchentw/30-Days-Of-Python)
   
 
+## Sample Playground
+
+```
+sample
+├─ pgclass.py             # Class, Object. 3-syntax/
+├─ pgfunciton.py          # Function, Decorator, Enum. 3-syntax/
+├─ pglog_sample.log       # sample log
+├─ pglog.py               # loguru + Exception. 7-libraries/
+├─ pgrequest_sample.json  # sample api response json
+├─ pgrequest.py           # Web: API request + JSON parsing. 5-data/, 7-libraries/
+├─ pgsys.py               # system, os, file. 3-system/
+├─ pgtest.py              # PyTest, report, mock data. 8-test/
+└─ pgtype.py              # Dict, Regex, Dateime. 1-collections/, 2-types/
+```
+
 ## Table of Contents
 
 1. **Collections**: List, **[Dictionary]**, Set, Tuple, Range, Enumerate, Iterator, Generator.
@@ -27,22 +42,6 @@ Inspired by
 8. **Test**: **[Pytest]**, mock
 9. **Style**: **[PEP8]**
 
-
-## Sample Playground
-
-```
-sample
-├─ pgclass.py           # Class, Object. 3-syntax/
-├─ pgfunciton.py        # Function, Decorator, Enum. 3-syntax/
-├─ pglog_sample.log     # sample log
-├─ pglog.py             # loguru + Exception. 7-libraries/
-├─ pgrequest.py         # Web: API request + JSON parsing. 5-data/, 7-libraries/
-├─ pgsys.py             # system, os, file. 3-system/
-├─ pgtest.py            # PyTest, report, mock data. 8-test/
-└─ pgtype.py            # Dict, Regex, Dateime. 1-collections/, 2-types/
-```
-
----
 
 <!-- Links -->
 

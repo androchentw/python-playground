@@ -9,14 +9,36 @@
 #
 # Usage: python pgrequest.py
 import json
+import requests
 
 
 def main():
-    demo_api()
+    demo_api_get()
+    demo_api_post()
 
 
-def demo_api():
-    print("\n# demo_api")
+def demo_api_get():
+    print("\n# demo_api_get")
+    api_url = "https://jsonplaceholder.typicode.com/todos/1"
+    response = requests.get(api_url, verify=False)
+    print(response.json())
+    # {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
+    print(response.status_code)  # 200
+    print(response.headers["Content-Type"])  # 'application/json; charset=utf-8'
+
+
+def demo_api_post():
+    print("\n# demo_api_post")
+    api_url = "https://jsonplaceholder.typicode.com/todos"
+    todo = {"userId": 9, "title": "Test code", "completed": False}
+    response = requests.post(api_url, json=todo, verify=False)
+    print(response.json())
+    # {'userId': 9, 'title': 'Test code', 'completed': False, 'id': 201}
+    print(response.status_code)  # 201
+
+    print("\n## write and read json file")
+    write_to_json_file("pgrequest_sample.json", response.json())
+    print(read_json_file("pgrequest_sample.json"))
 
 
 def read_json_file(filename):
