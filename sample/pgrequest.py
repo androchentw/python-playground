@@ -2,7 +2,7 @@
 #
 # Reference
 #   Web: API request + JSON parsing
-#   5-data/JSON    
+#   5-data/JSON
 #   7-libraries/22_Day_Web_scraping
 #
 # Requirements
@@ -12,7 +12,11 @@ import json
 
 
 def main():
-    pass
+    demo_api()
+
+
+def demo_api():
+    print("\n# demo_api")
 
 
 def read_json_file(filename):

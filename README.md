@@ -33,13 +33,13 @@ Inspired by
 ```
 sample
 ├─ pgclass.py           # Class, Object. 3-syntax/
-├─ pgtype.py            # Dict, Regex, Dateime. 1-collections/, 2-types/
 ├─ pgfunciton.py        # Function, Decorator, Enum. 3-syntax/
-├─ pglog.py             # loguru + Exception. 7-libraries/
 ├─ pglog_sample.log     # sample log
+├─ pglog.py             # loguru + Exception. 7-libraries/
 ├─ pgrequest.py         # Web: API request + JSON parsing. 5-data/, 7-libraries/
 ├─ pgsys.py             # system, os, file. 3-system/
-└─ pgtest.py            # PyTest, report, mock data. 8-test/
+├─ pgtest.py            # PyTest, report, mock data. 8-test/
+└─ pgtype.py            # Dict, Regex, Dateime. 1-collections/, 2-types/
 ```
 
 ---
