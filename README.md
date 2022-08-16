@@ -20,20 +20,19 @@ Inspired by
 9. **Style**: **[PEP8]**
 
 
-## Main
+## Sample Playground
 
-```py
-#!/usr/bin/env python3
-#
-# Usage: utils.py
-#
-def main():
-    pass
-
-if __name__ == '__main__':     # Runs main() if file wasn't imported.
-    main()
+```
+sample
+├─ pgclass.py           # Class, Object
+├─ pglog.py             # loguru + Exception
+├─ pglog_sample.log     # sample log
+├─ pgmain.py            # main function structure and some simple function
+├─ pgrequest.py         # Web: API request + JSON parsing
+└─ pgtest.py            # PyTest, report, mock data
 ```
 
+---
 
 <!-- Links -->
 

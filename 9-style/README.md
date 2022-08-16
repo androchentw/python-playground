@@ -1,5 +1,10 @@
 # Style
 
+## 
+
+[Guidelines derived from Guido’s Recommendations](https://google.github.io/styleguide/pyguide.html#3164-guidelines-derived-from-guidos-recommendations)
+
+
 ## PEP8
 
 
