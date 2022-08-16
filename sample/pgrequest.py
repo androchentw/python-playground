@@ -6,6 +6,7 @@
 #   7-libraries/22_Day_Web_scraping
 #
 # Requirements
+# $ pip3 install requests
 #
 # Usage: python pgrequest.py
 import json
@@ -20,7 +21,7 @@ def main():
 def demo_api_get():
     print("\n# demo_api_get")
     api_url = "https://jsonplaceholder.typicode.com/todos/1"
-    response = requests.get(api_url, verify=False)
+    response = requests.get(api_url)
     print(response.json())
     # {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
     print(response.status_code)  # 200
@@ -31,7 +32,7 @@ def demo_api_post():
     print("\n# demo_api_post")
     api_url = "https://jsonplaceholder.typicode.com/todos"
     todo = {"userId": 9, "title": "Test code", "completed": False}
-    response = requests.post(api_url, json=todo, verify=False)
+    response = requests.post(api_url, json=todo)
     print(response.json())
     # {'userId': 9, 'title': 'Test code', 'completed': False, 'id': 201}
     print(response.status_code)  # 201
