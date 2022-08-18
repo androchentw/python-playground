@@ -1,0 +1,48 @@
+2022-08-16 11:09:09+0800, INFO, If you're using Python 3.6, prefer f-strings of course!.
+2022-08-16 11:09:09+0800, DEBUG, msg debug.
+2022-08-16 11:09:09+0800, WARNING, msg warning.
+2022-08-16 11:09:09+0800, ERROR, msg ERROR.
+2022-08-16 11:09:09+0800, ERROR, An error has been caught in function 'main', process 'MainProcess' (12590), thread 'MainThread' (4753313280):.
+Traceback (most recent call last):
+
+  File "/MBPR-andro/andro/python-playground/pglog.py", line 51, in <module>
+    main()
+    └ <function main at 0x10f5ac160>
+
+> File "/MBPR-andro/andro/python-playground/pglog.py", line 18, in main
+    demo_decorator_func(0, 0, 0)
+    └ <function demo_decorator_func at 0x11005f820>
+
+  File "/MBPR-andro/andro/python-playground/pglog.py", line 35, in demo_decorator_func
+    return 1 / (x + y + z)
+                │   │   └ 0
+                │   └ 0
+                └ 0
+
+ZeroDivisionError: division by zero
+2022-08-16 11:09:55+0800, INFO, If you're using Python 3.6, prefer f-strings of course!.
+2022-08-16 11:09:55+0800, DEBUG, msg debug.
+2022-08-16 11:09:55+0800, WARNING, msg warning.
+2022-08-16 11:09:55+0800, ERROR, msg ERROR.
+2022-08-16 11:09:55+0800, ERROR, msg exception.
+Traceback (most recent call last):
+
+  File "/MBPR-andro/andro/python-playground/pglog.py", line 51, in <module>
+    main()
+    └ <function main at 0x10aee3160>
+
+  File "/MBPR-andro/andro/python-playground/pglog.py", line 19, in main
+    demo_except_catch_func(0)
+    └ <function demo_except_catch_func at 0x10b997940>
+
+> File "/MBPR-andro/andro/python-playground/pglog.py", line 44, in demo_except_catch_func
+    demo_except_func(5, c)
+    │                   └ 0
+    └ <function demo_except_func at 0x10b9978b0>
+
+  File "/MBPR-andro/andro/python-playground/pglog.py", line 39, in demo_except_func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero

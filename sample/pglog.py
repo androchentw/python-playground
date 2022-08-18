@@ -24,7 +24,7 @@ def main():
 
 def init():
     logger.add(
-        "pglog.log",
+        "pglog_sample.log",
         # serialize=True,   # to JSON format
         enqueue=True,  # Asynchronous, Thread-safe, Multiprocess-safe
         backtrace=True,  # Caution, may leak sensitive data in prod
