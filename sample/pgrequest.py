@@ -22,8 +22,8 @@ def main():
 
 def demo_api_get():
     print("\n# demo_api_get")
-    api_url = "https://jsonplaceholder.typicode.com/todos/1"
-    response = requests.get(api_url)
+    url = "https://jsonplaceholder.typicode.com/todos/1"
+    response = requests.get(url)
     print(response.json())
     # {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
     print(response.status_code)  # 200
@@ -32,9 +32,13 @@ def demo_api_get():
 
 def demo_api_post():
     print("\n# demo_api_post")
-    api_url = "https://jsonplaceholder.typicode.com/todos"
+    url = "https://jsonplaceholder.typicode.com/todos"
     todo = {"userId": 9, "title": "Test code", "completed": False}
-    response = requests.post(api_url, json=todo)
+    AUTH_ID = ""
+    AUTH_SECRET = ""
+    auth_content = (AUTH_ID, AUTH_SECRET)
+    auth_header = "Authorization: {token}"
+    response = requests.post(url, json=todo, auth=auth_content)
     print(response.json())
     # {'userId': 9, 'title': 'Test code', 'completed': False, 'id': 201}
     print(response.status_code)  # 201
