@@ -26,9 +26,12 @@ def main():
 
 def demo_inspect():
     print("\n# demo_inspect")
-    print(inspect.stack()[0][3])
-    # stack()[0] is the caller
-    # stack()[3] is the string name of the method
+    print(inspect.stack()[0].function)
+    print(inspect.stack()[1].function)
+    print(inspect.stack()[2].function)
+    # stack()[0] is the current function, demo_inspect
+    # stack()[1] is the father of current function, main
+    # and so on.
 
 
 def demo_sys_input():
