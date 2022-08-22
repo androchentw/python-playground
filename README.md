@@ -43,6 +43,11 @@ sample
 8. **Test**: **[Pytest]**, mock
 9. **Style**: **[PEP8]**
 
+## Ref
+
+* [Complete Python Roadmap for Beginners in 2022](https://copyassignment.com/complete-python-roadmap-for-beginners-in-2022/)
+
+<img style="width:60%;" src="https://copyassignment.com/wp-content/uploads/2022/08/Python-Complete-Roadmap-for-Beginners-1536x1152.jpg">
 
 <!-- Links -->
 
