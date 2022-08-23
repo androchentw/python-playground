@@ -20,16 +20,26 @@ Inspired by
 
 ```
 sample
-├─ pgclass.py             # Class, Object. 3-syntax/
-├─ pgfunciton.py          # Function, Decorator, Enum. 3-syntax/
-├─ pglog_sample.log       # sample log
-├─ pglog.py               # loguru + Exception. 7-libraries/
-├─ pgrequest_sample.json  # sample api response json
-├─ pgrequest.py           # Web: API request + JSON parsing. 5-data/, 7-libraries/
-├─ pgsys.py               # system, os, file. 3-system/
-├─ pgtest.py              # PyTest, report, mock data. 8-test/
-└─ pgtype.py              # Dict, Regex, Dateime. 1-collections/, 2-types/
+├─ reports                  # test report
+│  ├─ allure                  # allure report
+│  ├─ junit.xml               # junit report
+│  └─ report.html             # html report
+├─ test                     # test python folder
+│  ├─ pgtest_sample.log       # sample test log
+│  ├─ test_equal.py           # demo test pass, skip
+│  └─ test_equal_fail.py      # demo test fail
+├─ pgclass.py               # 3-syntax/ Class, Object
+├─ pgfunction.py            # 3-syntax/ Function, Decorator, Enum
+├─ pglog.py                 # 7-libraries/ loguru + Exception
+├─ pglog_sample.log           # sample log
+├─ pgrequest.py             # 5-data/, 7-libraries/ Web: API request + JSON parsing
+├─ pgrequest_sample.json      # sample api response json
+├─ pgsys.py                 # 3-system/ system, os, file
+├─ pgtest.py                # 8-test/ PyTest, report, mock data
+├─ pgtype.py                # 1-collections/, 2-types/ Dict, Regex, Dateime
+└─ requirements.txt         # pip3 install -r requirements.txt
 ```
+
 
 ## Table of Contents
 
