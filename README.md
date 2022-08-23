@@ -25,9 +25,10 @@ sample
 │  ├─ junit.xml               # junit report
 │  └─ report.html             # html report
 ├─ test                     # test python folder
+│  ├─ pgtest_sample_func.py   # test sample funciton
 │  ├─ pgtest_sample.log       # sample test log
-│  ├─ test_equal.py           # demo test pass, skip
-│  └─ test_equal_fail.py      # demo test fail
+│  ├─ test_equal.py           # demo test pass
+│  └─ test_equal_fail.py      # demo test fail, skip
 ├─ pgclass.py               # 3-syntax/ Class, Object
 ├─ pgfunction.py            # 3-syntax/ Function, Decorator, Enum
 ├─ pglog.py                 # 7-libraries/ loguru + Exception

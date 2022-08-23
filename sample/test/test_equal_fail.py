@@ -1,7 +1,6 @@
 import pytest
-import pgtest
 
-
+# demo fail
 def test_equal_fail():
     assert 1 != 1
 
