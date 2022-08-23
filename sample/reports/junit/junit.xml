@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="4" time="0.231" timestamp="2022-08-18T10:48:08.949943" hostname="MBPR-andro"><testcase classname="test.test_pgtest" name="test_equal" time="0.001" /><testcase classname="test.test_pgtest" name="test_hello" time="0.001" /><testcase classname="test.test_pgtest" name="test_skip" time="0.001"><skipped type="pytest.skip" message="specify skip resaon">/MBPR-andro/andro/python-playground/sample/test/test_pgtest.py:15: specify skip resaon</skipped></testcase><testcase classname="test.test_pgtest_fail" name="test_fail" time="0.008"><failure message="assert 1 != 1">def test_fail():
-&gt;       assert (1 != 1)
-E       assert 1 != 1
-
-test/test_pgtest_fail.py:6: AssertionError</failure></testcase></testsuite></testsuites>

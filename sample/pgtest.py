@@ -18,8 +18,11 @@ def main():
 
 
 def demo_unit_test():
+    # $ allure serve reports/allure
     result = subprocess.run(
-        "python3 -m pytest test/ --junitxml=reports/junit/junit.xml",
+        f"python3 -m pytest test/ --capture=tee-sys --junitxml=reports/junit.xml \
+            --html=reports/report.html --self-contained-html \
+            --alluredir=reports/allure",
         shell=True,
         check=False,
         stdout=subprocess.PIPE,
@@ -27,6 +30,7 @@ def demo_unit_test():
         encoding="utf-8",
     )
     print(result.stdout)
+    print(result.stderr)
 
 
 def hello(text, **kwargs):
