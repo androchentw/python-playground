@@ -8,7 +8,7 @@
 
 Blog: [Github - Python Playground](https://blog.androchen.tw/github-python-playground/)
 
-python-playground is a simple example repository for common modules in Python.
+Sample code for common modules in Python.
 
 Inspired by 
 
