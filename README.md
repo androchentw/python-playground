@@ -6,6 +6,8 @@
   <sub><sup>(Photo by <a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clément Hélardot</a> on <a href="https://unsplash.com/collections/SV-KO-htOoM/my-first-collection/9b0020f22e02b780910afe3a322692d8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>)</sup></sub>
 </p>
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/androchentw/python-playground/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/androchentw/python-playground/tree/main)
+
 Blog: [Github - Python Playground](https://blog.androchen.tw/github-python-playground/)
 
 Sample code for common modules in Python.
