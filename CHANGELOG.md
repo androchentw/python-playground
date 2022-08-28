@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2022-08-28
+
+### Added
+- feat: add integration of .circleci/config.yaml 
+- 
 ## [1.1.0] - 2022-08-23
 
 ### Added
