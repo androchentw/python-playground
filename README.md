@@ -20,7 +20,7 @@ Inspired by
   
 ## Sample Playground
 
-```
+```text
 sample
 ├─ reports                  # test report
 │  ├─ allure                  # allure report
@@ -54,6 +54,7 @@ sample
 7. **Libraries**: Progress_Bar, Plot, Table, Curses, **[Logging]**, Scraping, **[Web]**, Profile, NumPy, Image, Audio, Games, Data.
 8. **Test**: **[Pytest]**, mock
 9. **Style**: **[PEP8]**
+10. **Crawler**: [10-crawler: Crawlee]
 
 ## Ref
 
@@ -88,3 +89,4 @@ sample
 [Logging]: 7-libraries/README.md#logging
 [Pytest]: 8-test/README.md#pytest
 [PEP8]: 9-style/README.md#pep8
+[10-crawler: Crawlee]: 10-crawler/README.md
